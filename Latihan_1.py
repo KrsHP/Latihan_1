@@ -2,9 +2,13 @@
 #NIM = 2501870
 #Kelas =1B
 
+print("Selamat datang, silahkan isi data diri anda")
 nama = input("Masukan nama anda: ")
 tahun_lahir = int(input("Masukan tahun lahir anda: "))
-umur = abs(tahun_lahir-2025)
+tempat_lahir = input("Masukkan Tempat anda lahir: ")
+mbti = input("Masukkan MBTI anda: ")
 
-print(f"Halo nama anda: {nama}\nUmur: {umur}")
+umur = abs(2025 - tahun_lahir)
+
+print(f"Halo nama anda: {nama}\nberumur: {umur} lahir di {tempat_lahir} dengan MBTI {mbti}")
 
